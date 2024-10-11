@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex; /* Use flexbox to arrange game area and hint card */
+    width: 500px;
+    max-width: 90%;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    min-height: 500px;
+    margin-right: 200px;
+    text-align: center;
+}
+.container2 {
+    min-width: 200px;
+    max-width: 300px;
+    max-width: 90%;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    min-height: 500px
+}
+
+.game-area {
+    flex: 1; /* Take the remaining space for the game area */
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    font-size: 18px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0056b3;
+}
+
+button {
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.scoreboard {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 15px;
+    border-top: 2px solid #007bff;
+}
+
+#score {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.history {
+    margin-top: 20px;
+}
+
+.history h2 {
+    font-size: 20px;
+}
+
+#guessHistory {
+    list-style-type: none;
+    padding: 0;
+}
+
+#guessHistory li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.hint-card{
+    position: fixed;
+    right: 50px;
+}
+

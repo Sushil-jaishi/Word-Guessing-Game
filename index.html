@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-area">
+            <h1>Word Guessing Game</h1>
+            <br />
+            <div class="input-area">
+                <form id="guessForm">
+                    <input type="text" id="guess" placeholder="Enter your guess" />
+                    <br />
+                    <br />
+                    <button id="submit">Submit</button>
+                </form>
+            </div>
+            <div class="scoreboard">
+                <h2>Matching Score</h2>
+                <div id="score">Score: <span id="scoreValue">0</span></div>
+            </div>
+            <div class="history">
+                <h3>Score range: 0 - 1000</h3>
+            </div>
+        </div>
+    </div>
+    <div class="hint-card">
+    <div class="container2">
+            <h2>Hints</h2>
+            <div class="hint">
+            </div>
+            <br/>
+            <button id="submit" class="get-hint">Get Hint</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+    
