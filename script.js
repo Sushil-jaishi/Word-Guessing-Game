@@ -3,7 +3,7 @@ const words = [
     { category: "colour", words: ["black", "blue", "brown", "cyan", "gray", "green", "lime", "magenta", "orange", "pink", "purple", "red", "teal", "white", "yellow"] },
     { category: "country", words: ["Australia", "Brazil", "Canada", "China", "France", "Germany", "India", "Italy", "Japan", "Mexico", "Russia", "South Africa", "Spain", "United Kingdom", "USA"] },
     { category: "food", words: ["bread", "burger", "cake", "curry", "hamburger", "ice cream", "noodles", "pasta", "pizza", "salad", "sandwich", "sushi", "taco", "vegetables", "chocolate"] },
-    { category: "profession", words: ["artist", "chef", "doctor", "engineer", "firefighter", "journalist", "lawyer", "musician", "nurse", "pilot", "scientist", "software developer", "teacher", "tractor", "police"] },
+    { category: "profession", words: ["artist", "chef", "doctor", "engineer", "firefighter", "journalist", "lawyer", "musician", "nurse", "pilot", "scientist", "software developer", "teacher", "farmer", "police"] },
     { category: "sport", words: ["baseball", "basketball", "boxing", "cricket", "cycling", "fishing", "golf", "gymnastics", "hockey", "running", "rugby", "soccer", "swimming", "tennis", "volleyball"] },
     { category: "vehicle", words: ["airplane", "bicycle", "boat", "bus", "helicopter", "motorcycle", "scooter", "submarine", "train", "tractor", "truck", "van", "hoverboard", "skateboard", "car"] }
 ];  
